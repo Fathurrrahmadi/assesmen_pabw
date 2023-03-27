@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,10 +6,12 @@
   </head>
   <body>
     <?php
+
       // Ambil nilai dari form HTML
       $angka1 = $_POST["angka1"];
       $angka2 = $_POST["angka2"];
       $operator = $_POST["operator"];
+
 
       // Lakukan operasi aritmatika sesuai dengan operator
       if ($operator == "+") {
